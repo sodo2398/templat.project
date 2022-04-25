@@ -6,8 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Template</title>
     <link rel="stylesheet" href="style.css" />
+   <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+
+
   </head>
   <body>
+    <!--Dark Mode Switch-->
+    <div class="theme-switch-wrapper">
+      <span id="toggle-icon">
+        <span class="toggle-text">Light Mode</span>
+        <i class="fa fa-sun"></i>
+      </span>
+      <label class="theme-switch">
+        <input type="checkbox">
+        <div class="slider round"></div>
+      </label>
+    </div>
     <!--Navigation-->
     <nav id="nav">
       <a href="#Home">Home</a>
@@ -26,13 +42,63 @@
     <!--About section-->
     <section id="About">
       <h1>Undraw Illusstrationb</h1>
-      <div class="about container">
-        <div class="images-container">
+      <div class="about-container">
+        <div class="image-container">
           <h2>Web Innovation</h2>
           <img
             src="images/undraw_books_re_8gea.svg"
             alt="proud coder"
             id="image1"
+          />
+        </div>
+        <div class="image-container">
+          <h2>Web foundation</h2>
+          <img src="images/undraw_cookie_love_re_lsjh.svg"" alt="proud coder"
+          id="image2" />
+        </div>
+        <div class="image-container">
+          <h2>Web Starter</h2>
+          <img
+            src="images/undraw_coolness_re_sllr.svg"
+            alt="Idea"
+            id="image3"
+          />
+        </div>
+      </div>
+    </section>
+    <!--Project Section-->
+    <section id="Projects">
+      <h1>Buttons</h1>
+      <div class="buttons">
+        <button class="primary">Prime</button>
+        <button class="secondary">Secend</button>
+        <button class="primary"disabled>Disabled</button>
+        <button class="outline">Outline</button>
+        <button class="secondary outline">Alt Outline</button>
+        <button class="outline"disabled>Disabled</button>
+      </div>
+      <div class="text-box"id="text-box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi iste animi consequuntur architecto, quae error commodi sint magni at ad impedit ullam cumque harum velit doloremque voluptates dolores, magnam labore!</p>
+      </div>
+    </section>
+    <!--Contact Section-->
+    <section id="contact">
+<div class="social-icon">
+  <i class="fa-brands fa-github-alt"></i>
+  <i class="fa-brands fa-gitlab"></i>
+  <i class="fa-brands fa-github"></i>
+  <i class="fa-brands fa-draft2digital"></i>
+  <i class="fa-brands fa-bitbucket"></i>
+  <i class="fa-brands fa-git-square"></i>
+
+</div>
+
+    </section>
+    <!--script-->
+    <script src="script.js"></script>
+  </body>
+</html>
+
           />
         </div>
         <div class="image-container">
